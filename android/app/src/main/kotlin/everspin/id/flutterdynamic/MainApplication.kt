@@ -1,11 +1,13 @@
 package everspin.id.flutterdynamic
 
 import android.app.Application
+import android.util.Log
 import kr.co.everspin.eversafe.EversafeHelper
 
 class MainApplication: Application() {
     override fun onCreate() {
         super.onCreate()
+        Log.d("EversafeHelper", "onCreate: ");
 
         /*val additionalInfo: MutableMap<String, Any> = HashMap()
         additionalInfo["serverPublicKeyHashes"] = arrayOf("GA/yTHehfqs/IC17YLaBXtmq1AUW1W5xNiqahH69KwU=")
