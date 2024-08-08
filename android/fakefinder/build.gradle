@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('fakefinder-internal-prodRelease-2.2.7id.aar'))
